@@ -7,7 +7,9 @@
       "extract": "node extract_reel_ids.js",
       "download": "node download_reels.js",
       "retry": "cp failed_ids.txt reel_ids.txt && yarn download",
-      "all": "yarn get-cookies && yarn extract && yarn download"
+      "all": "yarn get-cookies && yarn extract && yarn download",
+      "play": "mpv --loop-playlist --shuffle reels_download/*.mp4",
+      "play-full": "mpv --loop-playlist --shuffle --fullscreen reels_download/*.mp4"
   },
   "keywords": [],
   "author": "",
