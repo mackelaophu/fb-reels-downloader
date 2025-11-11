@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+package-lock.json
+yarn.lock
+
+# Puppeteer cache
+.puppeteer/
+
+# Video tải về
+reels_download/
+reels_video/
+reels_hls/
+reels_blob/
+
+# File tạm
+reel_ids.txt
+failed_ids.txt
+fb_cookies.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
